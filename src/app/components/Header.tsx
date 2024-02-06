@@ -76,6 +76,7 @@ function Header({ onNavItemPress }: any) {
                             <MenuItem onClick={() => { onNavItemPress("Home"); openPopper(); }} >Home</MenuItem>
                             <MenuItem onClick={() => { onNavItemPress("AboutMe"); openPopper(); }} >About Me</MenuItem>
                             <MenuItem onClick={() => { onNavItemPress("Research"); openPopper(); }} >Research</MenuItem>
+                            <MenuItem onClick={() => { onNavItemPress("Photos"); openPopper(); }} >Photos</MenuItem>
                         </MenuList>
                     </ClickAwayListener>
                 </Paper>

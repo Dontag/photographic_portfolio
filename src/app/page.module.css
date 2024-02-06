@@ -7,9 +7,17 @@
     background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.1)),url(../assets/images/bg_01.jpg);
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
+    scrollbar-color: transparent transparent;
+    
 }
 .bgImage1{
     background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.1)),url(../assets/images/bg_02.jpg);
+}
+.bgImage2{
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.1)),url(../assets/images/bg_03.jpg);
+}
+.bgImage3{
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.1)),url(../assets/images/bg_04.jpg);
 }
 .navBar{
     width: 100%;
@@ -43,4 +51,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.modalImage{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    /* height: 100vh; */
 }

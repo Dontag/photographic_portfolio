@@ -111,7 +111,7 @@ a {
     scrollbar-width: none;  /* Firefox */
   }
   ::-webkit-scrollbar { 
-    display: none;  /* Safari and Chrome */
+    display: none !important;  /* Safari and Chrome */
 }
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
   'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
